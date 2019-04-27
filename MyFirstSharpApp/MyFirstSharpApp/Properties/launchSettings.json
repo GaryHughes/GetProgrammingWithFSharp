@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyFirstSharpApp": {
+      "commandName": "Project",
+      "commandLineArgs": "Hello World"
+    }
+  }
+}
