@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MyFirstSharpApp", "MyFirstSharpApp\MyFirstSharpApp.fsproj", "{A5BA3AD1-12B3-4391-BDF1-8E12412D6590}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ReadName", "ReadName\ReadName.fsproj", "{0E038495-CA89-4409-9B63-0567526622EF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CapstoneOne", "CapstoneOne\CapstoneOne.fsproj", "{CCD5A03C-14CC-4381-B372-477017D9D813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A5BA3AD1-12B3-4391-BDF1-8E12412D6590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5BA3AD1-12B3-4391-BDF1-8E12412D6590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5BA3AD1-12B3-4391-BDF1-8E12412D6590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E038495-CA89-4409-9B63-0567526622EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E038495-CA89-4409-9B63-0567526622EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E038495-CA89-4409-9B63-0567526622EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E038495-CA89-4409-9B63-0567526622EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD5A03C-14CC-4381-B372-477017D9D813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD5A03C-14CC-4381-B372-477017D9D813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD5A03C-14CC-4381-B372-477017D9D813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD5A03C-14CC-4381-B372-477017D9D813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

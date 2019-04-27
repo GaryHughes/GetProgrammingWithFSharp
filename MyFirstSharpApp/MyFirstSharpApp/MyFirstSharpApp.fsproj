@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="7_2_4.fsx" />
+    <None Include="7_2_3.fsx" />
+    <None Include="6_3_2.fsx" />
+    <None Include="6_3_1.fsx" />
+    <None Include="6_2_1.fsx" />
+    <None Include="5_10.fsx" />
+    <None Include="browser.fsx" />
+    <None Include="lesson 4.fsx" />
     <None Include="scratchpad.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
