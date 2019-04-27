@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="11_11.fsx" />
+    <None Include="11_2.fsx" />
+    <None Include="10_1_1.fsx" />
+    <None Include="9_3_2.fsx" />
+    <None Include="9_2.fsx" />
     <None Include="7_2_4.fsx" />
     <None Include="7_2_3.fsx" />
     <None Include="6_3_2.fsx" />
