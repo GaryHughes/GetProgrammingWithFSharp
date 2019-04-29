@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain.fs" />
+    <Compile Include="Auditing.fs" />
+    <Compile Include="Operations.fs" />
+    <None Include="scratchpad.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
