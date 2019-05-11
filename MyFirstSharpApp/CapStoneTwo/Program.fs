@@ -6,7 +6,9 @@ open Operations
 
 let auditAs operationName audit operation amount account =
     let result = operation amount account
-    if result.Balance <> account.Balance then audit account operationName
+    if result.Balance <> account.Balance then
+        let message = sprintf "'%s' for %f. Balance is now %f" operationName amount result.Balance
+        audit account message
     account
 
 let withdrawWithAudit = withdraw |> auditAs "withdraw" Auditing.consoleAudit
