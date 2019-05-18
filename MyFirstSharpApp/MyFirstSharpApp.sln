@@ -15,6 +15,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CapStoneTwo", "CapStoneTwo\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CapStoneThree", "CapStoneThree\CapStoneThree.fsproj", "{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CapStoneFour", "CapStoneFour\CapStoneFour.fsproj", "{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
