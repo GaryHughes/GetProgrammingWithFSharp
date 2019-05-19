@@ -1,0 +1,5 @@
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core
+nuget Humanizer 2.6.2
+nuget Newtonsoft.Json 12.0.2

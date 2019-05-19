@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{4076662B-55C3-414E-8C0E-FDBA4941DEEB}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MyFirstSharpApp", "MyFirstSharpApp\MyFirstSharpApp.fsproj", "{A5BA3AD1-12B3-4391-BDF1-8E12412D6590}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ReadName", "ReadName\ReadName.fsproj", "{0E038495-CA89-4409-9B63-0567526622EF}"
@@ -13,9 +18,15 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MySecondSharpApp", "MySecon
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CapStoneTwo", "CapStoneTwo\CapStoneTwo.fsproj", "{EF54D198-021E-401B-926C-4DE9A258DECF}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CapStoneThree", "CapStoneThree\CapStoneThree.fsproj", "{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CapStoneThree", "CapStoneThree\CapStoneThree.fsproj", "{A71B9BE0-002F-41E9-ADFE-2B39FA9E5572}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CapStoneFour", "CapStoneFour\CapStoneFour.fsproj", "{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpProject", "FSharpProject\FSharpProject.fsproj", "{169217FA-E450-4B9B-915D-1C3F2085B483}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProject", "CSharpProject\CSharpProject.csproj", "{2E04D3A7-E15F-438C-B43B-D7B556E48503}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NugetFSharp", "NugetFSharp\NugetFSharp.fsproj", "{231259A5-176D-4E99-9B7B-45B3C7AD9DF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +62,18 @@ Global
 		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{955FF5A3-EDBB-46A8-B17C-24399BCA8D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169217FA-E450-4B9B-915D-1C3F2085B483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169217FA-E450-4B9B-915D-1C3F2085B483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169217FA-E450-4B9B-915D-1C3F2085B483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169217FA-E450-4B9B-915D-1C3F2085B483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E04D3A7-E15F-438C-B43B-D7B556E48503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E04D3A7-E15F-438C-B43B-D7B556E48503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E04D3A7-E15F-438C-B43B-D7B556E48503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E04D3A7-E15F-438C-B43B-D7B556E48503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231259A5-176D-4E99-9B7B-45B3C7AD9DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231259A5-176D-4E99-9B7B-45B3C7AD9DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231259A5-176D-4E99-9B7B-45B3C7AD9DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231259A5-176D-4E99-9B7B-45B3C7AD9DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

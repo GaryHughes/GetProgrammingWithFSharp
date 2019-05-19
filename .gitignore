@@ -2,20 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/MyFirstSharpApp/MyFirstSharpApp/obj
-/MyFirstSharpApp/.vs/MyFirstSharpApp/v16
-/MyFirstSharpApp/CapstoneOne/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/CapstoneOne/obj
-/MyFirstSharpApp/MyFirstSharpApp/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/ReadName/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/ReadName/obj/Debug/netcoreapp2.2
-/MyFirstSharpApp/ReadName/obj
-/MyFirstSharpApp/CapStoneTwo/obj
-/MyFirstSharpApp/MySecondSharpApp/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/MySecondSharpApp/obj
-/MyFirstSharpApp/CapStoneTwo/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/.vs/MyFirstSharpApp/DesignTimeBuild
-/MyFirstSharpApp/CapStoneThree/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/CapStoneThree/obj
-/MyFirstSharpApp/CapStoneFour/bin/Debug/netcoreapp2.2
-/MyFirstSharpApp/CapStoneFour/obj
+obj
+bin
+.vs
+lib
+packages
+*.exe
